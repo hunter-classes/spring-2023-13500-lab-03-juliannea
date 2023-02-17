@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include "reservoir.h"
 #include "reverseorder.h"
@@ -18,7 +19,11 @@ int main()
     //get min and max of east
     std::cout<<"Get min and max of east"<<std::endl;
 
+    std::cout<<"Min of east:\n";
+
     std::cout << get_min_east() <<std::endl;
+
+    std::cout<<"Max of east:\n";
 
     std::cout << get_max_east() <<std::endl; 
 
